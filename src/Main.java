@@ -15,7 +15,6 @@ public class Main {
             System.out.println("Нет такого варианта");
         }
 
-
         //задача 2.
         System.out.println("Введите номер вашей OS Android-1 или IOS-0 ");
         int choice = scanner.nextInt();                                //выбор OS клиента
@@ -35,6 +34,7 @@ public class Main {
             System.out.println("Введены некоректные данные, проверьте данные");
         }
 
+
         //Задача 3
         System.out.println("Введите год для проверки");
         int year = scanner.nextInt(); // Введите интересующий вас год
@@ -46,7 +46,7 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным");
         }
-        ;
+
 
         //Задача 4
         System.out.println("Введите расстояние :");
@@ -60,7 +60,7 @@ public class Main {
         } else {
             System.out.println("Свыше 100 км доставки нет! ");
         }
-        ;
+
 
         //Задача 5
         System.out.println("Введите номер месяца :");
@@ -80,7 +80,6 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца не существует");
-
         }
         scanner.close(); //закрытие ввода с клавиатуры, применил везде один.
     }
