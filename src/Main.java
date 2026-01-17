@@ -46,7 +46,6 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным");
         }
-        ;
 
         //Задача 4
         System.out.println("Введите расстояние :");
@@ -60,7 +59,6 @@ public class Main {
         } else {
             System.out.println("Свыше 100 км доставки нет! ");
         }
-        ;
 
         //Задача 5
         System.out.println("Введите номер месяца :");
@@ -80,7 +78,6 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца не существует");
-
         }
         scanner.close(); //закрытие ввода с клавиатуры, применил везде один.
     }
