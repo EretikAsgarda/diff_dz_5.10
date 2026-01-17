@@ -15,7 +15,6 @@ public class Main {
             System.out.println("Нет такого варианта");
         }
 
-
         //задача 2.
         System.out.println("Введите номер вашей OS Android-1 или IOS-0 ");
         int choice = scanner.nextInt();                                //выбор OS клиента
